@@ -149,7 +149,7 @@ void Game::LoseScreenUpdate()
 		isGame = false;
 		isInGame = true;
 	}
-	if (IsMouseButtonDown(MOUSE_LEFT_BUTTON))
+	if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
 		isMouseButtonDown = true;
 	else
 		isMouseButtonDown = false;

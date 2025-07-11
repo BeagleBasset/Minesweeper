@@ -20,8 +20,10 @@ bool Button::UpdateButton()
 	if (CheckCollisionPointRec(mouseposition, ButtonRectangle)) {
 		CurrentButtonColor = HoverButtonColor;
 		CurrentFontColor = HoverFontColor;
-		if (IsMouseButtonDown(MOUSE_LEFT_BUTTON))
+		if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
 			return true;
+		else
+			return false;
 	}
 	else {
 		CurrentButtonColor = NormalButtonColor;

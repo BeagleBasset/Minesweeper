@@ -2,10 +2,15 @@
 #include <iostream>
 #include <raylib.h>
 #include "game.hpp"
+#define WIN32_LEAN_AND_MEAN
+#define NOGDI
+#define NOUSER
+#define NOMINMAX
+#include <windows.h>
 
-using namespace std;
 
-int main() {
+
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLine, int nCmdShow) {
 
     SetTargetFPS(60);
     InitWindow(500, 400, "Minesweeper");
