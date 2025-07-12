@@ -47,6 +47,9 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="colors.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Minesweeper.rc">
@@ -61,6 +64,9 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="Graphic\Mine.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphic\favicon.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

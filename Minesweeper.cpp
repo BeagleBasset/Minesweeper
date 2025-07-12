@@ -14,6 +14,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLine,
 
     SetTargetFPS(60);
     InitWindow(500, 400, "Minesweeper");
+    Image icon = LoadImage("Graphic/mine.png"); 
+    SetWindowIcon(icon);
     Game game = Game();
 
     while (WindowShouldClose() == false) {

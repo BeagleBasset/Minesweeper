@@ -1,4 +1,5 @@
 #include "grid.hpp"
+#include "colors.hpp"
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -160,35 +161,35 @@ void Grid::DrawTiles(int cellnum, int posx, int posy)
 		break;
 	case 1:
 		DrawRectangle(posx, posy, RectSize, RectSize, SKYBLUE);
-		DrawText("1", textposx, textposy, textsize, ORANGE);
+		DrawText("1", textposx, textposy, textsize, Colors::Navy);
 		break;
 	case 2:
 		DrawRectangle(posx, posy, RectSize, RectSize, SKYBLUE);
-		DrawText("2", textposx, textposy, textsize, DARKGREEN);
+		DrawText("2", textposx, textposy, textsize, Colors::ForestGreen);
 		break;
 	case 3:
 		DrawRectangle(posx, posy, RectSize, RectSize, SKYBLUE);
-		DrawText("3", textposx, textposy, textsize, RED);
+		DrawText("3", textposx, textposy, textsize, Colors::Crimson);
 		break;
 	case 4:
 		DrawRectangle(posx, posy, RectSize, RectSize, SKYBLUE);
-		DrawText("4", textposx, textposy, textsize, PINK);
+		DrawText("4", textposx, textposy, textsize, Colors::MediumBlue);
 		break;
 	case 5:
 		DrawRectangle(posx, posy, RectSize, RectSize, SKYBLUE);
-		DrawText("5", textposx, textposy, textsize, BROWN);
+		DrawText("5", textposx, textposy, textsize, Colors::SaddleBrown);
 		break;
 	case 6:
 		DrawRectangle(posx, posy, RectSize, RectSize, SKYBLUE);
-		DrawText("6", textposx, textposy, textsize, LIGHTGRAY);
+		DrawText("6", textposx, textposy, textsize, Colors::DarkSlateGray);
 		break;
 	case 7:
 		DrawRectangle(posx, posy, RectSize, RectSize, SKYBLUE);
-		DrawText("7", textposx, textposy, 16, PURPLE);
+		DrawText("7", textposx, textposy, 16, Colors::Indigo);
 		break;
 	case 8:
 		DrawRectangle(posx, posy, RectSize, RectSize, SKYBLUE);
-		DrawText("8", textposx, textposy, 16, BLACK);
+		DrawText("8", textposx, textposy, 16, Colors::Black);
 		break;
 	case 9:
 		DrawRectangle(posx, posy, RectSize, RectSize, SKYBLUE);
